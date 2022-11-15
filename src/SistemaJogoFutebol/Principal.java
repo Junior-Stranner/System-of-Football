@@ -23,7 +23,6 @@ public class Principal {
 		double novoValorVip1;
 		double novoValorVip2;
 		double novoValorVip3;
-	//	double vip = 0;
 		do {
 			System.out.print("\n----------------------------------------");
 
@@ -34,7 +33,7 @@ public class Principal {
 					+ "\n 4 - Sobre ALIANZ ARENA"
 					+ "\n 5 - Comprar Creditos"
 					+ "\n 6 - VIRE SÓCIO"
-					+ "\n 9 - finalizar Sistema /n Bom Jogo!!");
+					+ "\n 9 - finalizar Sistema \n Bom Jogo!!");
 
 			System.out.print("\n----------------------------------------");
 			op = Integer.parseInt(in.nextLine());
@@ -115,24 +114,24 @@ public class Principal {
                 if(f.getCreditos() >= f.vireSocio(vip));
                 novoValorVip1 = f.getCreditos() - f.vireSocio(vip);
                 System.out.println("Compra Realizada com Sucesso!"
-                		+ "\n Seu Saldo atua e aproximadamente de "+novoValorVip1);
+                		+ "\n Seu Saldo atual e aproximadamente de "+novoValorVip1);
 				System.out.print("\n----------------------------------------");
 				break;
 				
-			}else if(vip == 1) {
+			}else if(vip == 2) {
                 System.out.println(" Valor a pagar e "+ +f.vireSocio(vip));
                 if(f.getCreditos() >= f.vireSocio(vip));
                 novoValorVip1 = f.getCreditos() - f.vireSocio(vip);
                 System.out.println("Compra Realizada com Sucesso!"
-                		+ "\n Seu Saldo atua e aproximadamente de "+novoValorVip1);
+                		+ "\n Seu Saldo atual e aproximadamente de "+novoValorVip1);
 				System.out.print("\n----------------------------------------");
 				break;
-			} else if(vip == 1) {
+			} else if(vip == 3) {
                 System.out.println(" Valor a pagar e "+ +f.vireSocio(vip));
                 if(f.getCreditos() >= f.vireSocio(vip));
                 novoValorVip1 = f.getCreditos() - f.vireSocio(vip);
                 System.out.println("Compra Realizada com Sucesso!"
-                		+ "\n Seu Saldo atua e aproximadamente de "+novoValorVip1);
+                		+ "\n Seu Saldo atual e aproximadamente de "+novoValorVip1);
 				System.out.print("\n----------------------------------------");
 				break;
 			}

@@ -23,19 +23,19 @@ public class EstadioFutebol{
 		double novoValor = 0;
 		if( vip == 1) {
 			vip = 3000 * 1.10;
-			novoValor = vip;
+			//novoValor = vip;
 			
 		}else if (vip == 2) {
 			vip = 5000 * 1.15;
-			novoValor = vip;
+			//novoValor = vip;
 			
 		}else if(vip == 3) {
 			vip = 8000 * 1.30;
-			novoValor = vip;
+			//novoValor = vip;
 			
 		}
 		
-	    return novoValor;
+	    return vip;
 	}
 	
 	public double creditos(  ) {
@@ -51,7 +51,7 @@ public class EstadioFutebol{
 			this.creditos += 5000;
 			return creditos;
 		}else if(valor == 3) {
-			this.creditos += 10.000;
+			this.creditos += 10000;
 			return creditos;
 		}
 		return creditos;
